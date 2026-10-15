@@ -149,9 +149,10 @@ activemq-data/
 # SageMath parsed files
 *.sage.py
 
+# All files starting with .env will be ignored, including .env, .envrc, .env.local, .env.production, etc.
+.env*
+
 # Environments
-.env
-.envrc
 .venv
 env/
 venv/
